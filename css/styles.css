@@ -1,0 +1,188 @@
+#title {
+  background-color: #ff4c68;
+}
+
+.navbar-brand {
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3rem;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  color: white;
+  margin-top: 50px;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 1% 15% 8% 15%;
+}
+
+.btn-dark {
+  margin-right: 20px;
+}
+
+.btn-dark:hover {
+  background-color: #ff4c68;
+}
+
+.nav-item {
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: 0 40px 0 40px;
+}
+
+.phone {
+  transform: rotate(20deg);
+  width: 60%;
+  position: absolute;
+  padding-top: 5%;
+}
+
+#features {
+  padding: 7% 15%;
+  text-align: center;
+  font-family: "Montserrat";
+  background-color: white;
+  position: relative;
+}
+
+.easytouse {
+  color: #ff4c68;
+  font-size: 45px;
+  padding-bottom: 10px;
+}
+
+.easytouse:hover {
+  color: red;
+}
+
+.eliteclientele {
+  color: #ff4c68;
+  font-size: 45px;
+  padding-bottom: 10px;
+}
+
+.eliteclientele:hover {
+  color: red;
+}
+
+.guaranteedtowork {
+  color: #ff4c68;
+  font-size: 45px;
+  padding-bottom: 10px;
+}
+
+.guaranteedtowork:hover {
+  color: red;
+}
+
+.h3feat {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#testimonials {
+  ;
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+}
+
+.carousel-item {
+  padding: 7% 15%
+}
+
+.testimg {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.presslogo {
+  width: 15%;
+  margin: 20px 20px 50px 20px;
+}
+
+#pricing {
+  text-align: center;
+  padding: 3%;
+  font-family: "Montserrat"
+}
+
+.btnoutline {
+  border-color: #ff4c68;
+  color: #ff4c68;
+}
+
+.btnoutline:hover {
+  background-color: red;
+}
+
+.btnsolid {
+  border-color: #ff4c68;
+  background-color: #ff4c68;
+}
+
+.btnsolid:hover {
+  background-color: red;
+}
+
+.cardcol {
+  padding: 3%;
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+  font-family: "Montserrat"
+    font-weight: bold;
+  padding: 20px 0 100px 0;
+}
+
+.h3cta {
+  font-size: 3rem;
+  font-weight: 800;
+  padding: 50px;
+}
+
+#footer {
+  text-align: center;
+  padding: 40px 0 0 0;
+}
+
+.cr {
+  padding-top: 20px;
+}
+
+.ficon {
+  margin-left: 30px;
+}
+
+@media (max-width: 1000px) {
+  #title {
+    text-align: center;
+  }
+
+  .phone {
+    position: static;
+    transform: rotate(0);
+  }
+}
